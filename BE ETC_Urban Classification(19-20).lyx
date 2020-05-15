@@ -1641,7 +1641,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename C:/Users/Sherwin Colaco/Pictures/awdawd.png
-	scale 60
+	scale 30
 
 \end_inset
 
@@ -1682,6 +1682,53 @@ pology_fig4_266201206
 
 \end_layout
 
+\begin_layout Standard
+\noindent
+The newff function, newff(PR,[S1 S2...SNl],{TF1 TF2...TFNl},BTF,BLF,PF) takes
+ the following parameters
+\end_layout
+
+\begin_layout Itemize
+PR -- R x 2 matrix of min and max values for R input elements
+\end_layout
+
+\begin_layout Itemize
+Si -- Size of ith layer, for Nl layers
+\end_layout
+
+\begin_layout Itemize
+TFi -- Transfer function of ith layer, default = 'tansig'
+\end_layout
+
+\begin_layout Itemize
+BTF -- Backpropagation network training function, default = 'traingdx'
+\end_layout
+
+\begin_layout Itemize
+BLF -- Backpropagation weight/bias learning function, default = 'learngdm'
+\end_layout
+
+\begin_layout Itemize
+PF -- Performance function, default = 'mse'
+\end_layout
+
+\begin_layout Standard
+and returns an N layer feed-forward backprop network.
+\end_layout
+
+\begin_layout Standard
+\noindent
+During implementation of the newff function the number of hidden layers
+ was set to 20.All other parameters were set to their default values.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsubsection*
 RANDOM FOREST
 \end_layout
@@ -1713,7 +1760,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename C:/Users/Sherwin Colaco/Pictures/awdawdawd.png
-	scale 75
+	scale 40
 
 \end_inset
 
@@ -1769,6 +1816,41 @@ Each individual tree in the random forest spits out a class prediction and
  The predict function, another inbuilt function available in MATLAB was
  then used to classify test samples by running them through the generated
  RF model that was obtained in the previous process.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+The treebagger function contains two methods that it can perform.
+ These include classification and regression.
+\end_layout
+
+\begin_layout Standard
+\noindent
+Other parameters include:
+\end_layout
+
+\begin_layout Itemize
+'NumPrint' Number of training cycles (grown trees) after which TreeBagger
+ displays a diagnostic message showing training progress.
+ Default value is no diagnostic messages.
+\end_layout
+
+\begin_layout Itemize
+'MinLeafSize' Minimum number of observations per tree leaf.
+ Default value for it is 1 for classification and 5 for regression.
+\end_layout
+
+\begin_layout Standard
+During implementation of the function treebagger the number of trees to
+ be generated were set to 50 and the mode was set to classification.All other
+ values were set to their default values.
 \end_layout
 
 \begin_layout Standard
@@ -1869,6 +1951,59 @@ This tree predicts classifications based on two predictors, x1 and x2.
 \end_layout
 
 \begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+In MATLAB, fitctree which is an inbuilt function was used to implement decision
+ tree since the function returns a binary classification decision tree based
+ on the input variables given by the user.The predict function, was then
+ used to classify test samples by running them through the generated Decision
+ tree model that was obtained in the previous process.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+The default values of the tree depth controllers for growing classification
+ trees are:
+\end_layout
+
+\begin_layout Itemize
+\noindent
+n - 1 for MaxNumSplits where n is the training sample size
+\end_layout
+
+\begin_layout Itemize
+\noindent
+1 for MinLeafSize.
+\end_layout
+
+\begin_layout Itemize
+\noindent
+10 for MinParentSize
+\end_layout
+
+\begin_layout Itemize
+\noindent
+These default values tend to grow deep trees for large training sample sizes
+\end_layout
+
+\begin_layout Standard
+During implementation all variables were set to their default values.
+\end_layout
+
+\begin_layout Standard
 \begin_inset Newpage newpage
 \end_inset
 
@@ -1895,6 +2030,13 @@ The focus of this project is to use satellite images within the L-band frequency
 \noindent
 San Francisco is extremely dense; it is a very well-planned city with very
  minimal area available for expansion.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1959,6 +2101,13 @@ Fig.9 shows the Pauli RGB image obtained.The image represents single bounce
  bounce is represented with blue colour,double bounce is represented using
  red and volume bounce information is represented using green.This image
  can then be used to further classify the image.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
