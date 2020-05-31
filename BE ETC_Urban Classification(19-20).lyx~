@@ -2727,8 +2727,24 @@ The number of correct and incorrect predictions are summarized with count
 \end_layout
 
 \begin_layout Standard
-The confusion matrix obtained after classification for the above sample
- is as follows
+Confusion matrices obtained for the 9 test models obtained are explained
+ below,training areas were as follows
+\end_layout
+
+\begin_layout Standard
+Class 1 : Settlement areas
+\end_layout
+
+\begin_layout Standard
+Class 2 : Vegetation areas
+\end_layout
+
+\begin_layout Standard
+Class 3 : Water Body areas
+\end_layout
+
+\begin_layout Subsubsection
+MATRICES FOR DECISION TREE CLASSIFIER MODEL
 \end_layout
 
 \begin_layout Standard
@@ -2740,7 +2756,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename D:/my files/Sem 7/MWE/problems/matrix.PNG
+	filename C:/Users/Sherwin Colaco/Pictures/cmatrix/dtree3.jpg
 
 \end_inset
 
@@ -2751,7 +2767,8 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Confusion Matrix
+Confusion matrix:Decision tree classifier model trained using 3 component
+ data
 \end_layout
 
 \end_inset
@@ -2765,20 +2782,392 @@ Confusion Matrix
 \end_layout
 
 \begin_layout Itemize
-98.13% of the training samples of class vegetation were correctly classified
- ,1.64% was reclassified as water and the rest was reclassified as settlements.
+44485 samples of Settlements were correctly classified while 4617 samples
+ were reclassified as Vegetation and 3334 samples were reclassified as Water
+ bodies.
 \end_layout
 
 \begin_layout Itemize
-76.53% of the training samples of class water were correctly classified ,
- 8.33% was reclassified as vegetation and the rest was reclassified as settlement
-s.
+32296 samples of Vegetation were correctly classified while 5917 samples
+ were reclassified as Settlements and 4035 samples were reclassified as
+ Water bodies.
 \end_layout
 
 \begin_layout Itemize
-47.99% of the training samples of class settlement were correctly classified
- , 1.34% was reclassified as vegetation and the rest was reclassified as
- water.
+72950 samples of Water Bodies were correctly classified while 4336 samples
+ were reclassified as Settlements and 4147 samples were reclassified as
+ Vegetation.
+\end_layout
+
+\begin_layout Itemize
+Out of 176118 total samples, 149731 samples were correctly classified while
+ the rest were reclassified by the classification model.
+\end_layout
+
+\begin_layout Itemize
+This gets the above classification model to an overall classification accuracy
+ of 85.01%
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename C:/Users/Sherwin Colaco/Pictures/cmatrix/dtree4.jpg
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Confusion matrix:Decision tree classifier model trained using 4 component
+ data
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+49034 samples of Settlements were correctly classified while 3329 samples
+ were reclassified as Vegetation and 73 samples were reclassified as Water
+ bodies.
+\end_layout
+
+\begin_layout Itemize
+38230 samples of Vegetation were correctly classified while 3571 samples
+ were reclassified as Settlements and 447 samples were reclassified as Water
+ bodies.
+\end_layout
+
+\begin_layout Itemize
+80782 samples of Water Bodies were correctly classified while 189 samples
+ were reclassified as Settlements and 463 samples were reclassified as Vegetatio
+n.
+\end_layout
+
+\begin_layout Itemize
+Out of 176118 total samples, 168046 samples were correctly classified while
+ the rest were reclassified by the classification model.
+\end_layout
+
+\begin_layout Itemize
+This gets the above classification model to an overall classification accuracy
+ of 95.41%
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename C:/Users/Sherwin Colaco/Pictures/cmatrix/dtree7.jpg
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Confusion matrix:Decision tree classifier model trained using 7 component
+ data
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+48991 samples of Settlements were correctly classified while 3288 samples
+ were reclassified as Vegetation and 157 samples were reclassified as Water
+ bodies.
+\end_layout
+
+\begin_layout Itemize
+38144 samples of Vegetation were correctly classified while 3417 samples
+ were reclassified as Settlements and 687 samples were reclassified as Water
+ bodies.
+\end_layout
+
+\begin_layout Itemize
+80692 samples of Water Bodies were correctly classified while 180 samples
+ were reclassified as Settlements and 562 samples were reclassified as Vegetatio
+n.
+\end_layout
+
+\begin_layout Itemize
+Out of 176118 total samples, 167827 samples were correctly classified while
+ the rest were reclassified by the classification model.
+\end_layout
+
+\begin_layout Itemize
+This gets the above classification model to an overall classification accuracy
+ of 95.29%
+\end_layout
+
+\begin_layout Subsubsection
+MATRICES FOR ARTIFICIAL NEURAL NETWORK CLASSIFIER MODEL
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename C:/Users/Sherwin Colaco/Pictures/cmatrix/ann3.jpg
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Confusion matrix:ANN classifier model trained using 3 component data
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename C:/Users/Sherwin Colaco/Pictures/cmatrix/ann4.jpg
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Confusion matrix:ANN classifier model trained using 4 component data
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename C:/Users/Sherwin Colaco/Pictures/cmatrix/ann7.jpg
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Confusion matrix:ANN classifier model trained using 7 component data
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+MATRICES FOR RANDOM FOREST CLASSIFIER MODEL
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename C:/Users/Sherwin Colaco/Pictures/cmatrix/rf3.jpg
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Confusion matrix:Random Forest classifier model trained using 3 component
+ data
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename C:/Users/Sherwin Colaco/Pictures/cmatrix/rf4.jpg
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Confusion matrix:Random Forest classifier model trained using 4 component
+ data
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename C:/Users/Sherwin Colaco/Pictures/cmatrix/rf7.jpg
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Confusion matrix:Random Forest classifier model trained using 7 component
+ data
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
@@ -3203,6 +3592,61 @@ A combination of the Random Forest classifier trained using the seven component
 \end_layout
 
 \begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+PROJECT TIMELINE
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename C:/Users/Sherwin Colaco/Pictures/timeline.jpeg
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Project timeline
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+Due to the inconveniences caused due to the sudden COVID-19 lockdown, progress
+ of the project was halted beyond March 16 2020
+\end_layout
+
+\begin_layout Standard
 \begin_inset Newpage newpage
 \end_inset
 
@@ -3227,6 +3671,47 @@ options "plain"
 
 \begin_layout Standard
 \begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+PLAGIARISM CHECK RESULT
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename C:/Users/Sherwin Colaco/Pictures/cmatrix/plagiarism check.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Plagiarism check result
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
 \end_inset
 
 
