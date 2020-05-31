@@ -2978,6 +2978,37 @@ Confusion matrix:ANN classifier model trained using 3 component data
 
 \end_layout
 
+\begin_layout Itemize
+\noindent
+21,558 samples of Settlements were correctly classified while there were
+ no samples reclassified as Vegetation and 30,878 samples were reclassified
+ as Water bodies.
+\end_layout
+
+\begin_layout Itemize
+5 samples of Vegetation were correctly classified while 6,415 samples were
+ reclassified as Settlements and 35,828 samples were reclassified as Water
+ bodies.
+\end_layout
+
+\begin_layout Itemize
+79,039 samples of Water Bodies were correctly classified while 2,395 samples
+ were reclassified as Settlements and there were no samples reclassified
+ as Vegetation.
+ 
+\end_layout
+
+\begin_layout Itemize
+Out of 1,76,118 total samples, 1,00,602 samples were correctly classified
+ while the rest were reclassified by the classification model.
+ 
+\end_layout
+
+\begin_layout Itemize
+This gets the above classification model to an overall classification accuracy
+ of 57.12%
+\end_layout
+
 \begin_layout Standard
 \noindent
 \begin_inset Float figure
@@ -3017,6 +3048,37 @@ Confusion matrix:ANN classifier model trained using 4 component data
 
 \end_layout
 
+\begin_layout Itemize
+41,697 samples of Settlements were correctly classified while 9,092 samples
+ were reclassified as Vegetation and 1,647 samples were reclassified as
+ Water bodies.
+ 
+\end_layout
+
+\begin_layout Itemize
+28,523 samples of Vegetation were correctly classified while 8,832 samples
+ were reclassified as Settlements and 4,893 samples were reclassified as
+ Water bodies.
+\end_layout
+
+\begin_layout Itemize
+80,846 samples of Water Bodies were correctly classified while 132 samples
+ were reclassified as Settlements and 446 samples were reclassified as Vegetatio
+n.
+ 
+\end_layout
+
+\begin_layout Itemize
+Out of 1,76,118 total samples, 1,51,066 samples were correctly classified
+ while the rest were reclassified by the classification model.
+ 
+\end_layout
+
+\begin_layout Itemize
+This gets the above classification model to an overall classification accuracy
+ of 85.77%
+\end_layout
+
 \begin_layout Standard
 \noindent
 \begin_inset Float figure
@@ -3054,6 +3116,37 @@ Confusion matrix:ANN classifier model trained using 7 component data
 \end_inset
 
 
+\end_layout
+
+\begin_layout Itemize
+41,718 samples of Settlements were correctly classified while 9,255 samples
+ were reclassified as Vegetation and 1,463 samples were reclassified as
+ Water bodies.
+ 
+\end_layout
+
+\begin_layout Itemize
+29,198 samples of Vegetation were correctly classified while 8,535 samples
+ were reclassified as Settlements and 4,515 samples were reclassified as
+ Water bodies.
+\end_layout
+
+\begin_layout Itemize
+80,667 samples of Water Bodies were correctly classified while 104 samples
+ were reclassified as Settlements and 663 samples were reclassified as Vegetatio
+n.
+ 
+\end_layout
+
+\begin_layout Itemize
+Out of 1,76,118 total samples, 1,51,583 samples were correctly classified
+ while the rest were reclassified by the classification model.
+ 
+\end_layout
+
+\begin_layout Itemize
+This gets the above classification model to an overall classification accuracy
+ of 86.06%
 \end_layout
 
 \begin_layout Subsubsection
@@ -3099,6 +3192,34 @@ Confusion matrix:Random Forest classifier model trained using 3 component
 
 \end_layout
 
+\begin_layout Itemize
+45401 samples of Settlements were correctly classified while 6224 samples
+ were reclassified as Vegetation and 8111 samples were reclassified as Water
+ bodies.
+\end_layout
+
+\begin_layout Itemize
+31719 samples of Vegetation were correctly classified while 9592 samples
+ were reclassified as Settlements and 937 samples were reclassified as Water
+ bodies.
+\end_layout
+
+\begin_layout Itemize
+69496 samples of Water Bodies were correctly classified while 8390 samples
+ were reclassified as Settlements and 3548 samples were reclassified as
+ Vegetation.
+\end_layout
+
+\begin_layout Itemize
+Out of 1,76,118 total samples, 1,46,616 samples were correctly classified
+ while the rest were reclassified by the classification model.
+\end_layout
+
+\begin_layout Itemize
+This gets the above classification model to an overall classification accuracy
+ of 83.24%
+\end_layout
+
 \begin_layout Standard
 \noindent
 \begin_inset Float figure
@@ -3139,6 +3260,33 @@ Confusion matrix:Random Forest classifier model trained using 4 component
 
 \end_layout
 
+\begin_layout Itemize
+51127 samples of Settlements were correctly classified while 1304 samples
+ were reclassified as Vegetation and 5 samples were reclassified as Water
+ bodies.
+\end_layout
+
+\begin_layout Itemize
+41887 samples of Vegetation were correctly classified while 291 samples
+ were reclassified as Settlements and 70 samples were reclassified as Water
+ bodies.
+\end_layout
+
+\begin_layout Itemize
+81394 samples of Water Bodies were correctly classified while 9 samples
+ were reclassified as Settlements and 31 samples were reclassified as Vegetation.
+\end_layout
+
+\begin_layout Itemize
+Out of 1,76,118 total samples, 174408 samples were correctly classified
+ while the rest were reclassified by the classification model.
+\end_layout
+
+\begin_layout Itemize
+This gets the above classification model to an overall classification accuracy
+ of 99.02%
+\end_layout
+
 \begin_layout Standard
 \noindent
 \begin_inset Float figure
@@ -3177,6 +3325,34 @@ Confusion matrix:Random Forest classifier model trained using 7 component
 \end_inset
 
 
+\end_layout
+
+\begin_layout Itemize
+47562 samples of Settlements were correctly classified while 4215 samples
+ were reclassified as Vegetation and 659 samples were reclassified as Water
+ bodies.
+\end_layout
+
+\begin_layout Itemize
+39551 samples of Vegetation were correctly classified while 908 samples
+ were reclassified as Settlements and 1789 samples were reclassified as
+ Water bodies.
+\end_layout
+
+\begin_layout Itemize
+80966 samples of Water Bodies were correctly classified while 44 samples
+ were reclassified as Settlements and 424 samples were reclassified as Vegetatio
+n.
+\end_layout
+
+\begin_layout Itemize
+Out of 1,76,118 total samples, 168079 samples were correctly classified
+ while the rest were reclassified by the classification model.
+\end_layout
+
+\begin_layout Itemize
+This gets the above classification model to an overall classification accuracy
+ of 95.43%
 \end_layout
 
 \begin_layout Subsubsection
@@ -3579,13 +3755,15 @@ The ninth model used a Random Forest classifier which was trained using
 \end_layout
 
 \begin_layout Standard
-taking the results into consideration the following could be concluded:
+Based on visual interpretation and observations made from the confusion
+ matrices the following conclusions could be made:
 \end_layout
 
 \begin_layout Itemize
 \noindent
-Of the three datasets used in the project Gulab Singh's seven component
- dataset was found to be the best since it provided the most accurate results
+Of the three datasets used in the project Yamaguchi's four component dataset
+ was found to be the best training dataset since it provided the most accurate
+ results
 \end_layout
 
 \begin_layout Itemize
@@ -3595,9 +3773,9 @@ Out of the three classifier models used the Random forest classifier was
 \end_layout
 
 \begin_layout Itemize
-A combination of the Random Forest classifier trained using the seven component
- dataset [fig:12] was found to provide the most accurate and acceptable
- result shown in [Fig:20]
+A combination of the Random Forest classifier trained using Yamaguchi's
+ four component dataset [fig:12] was found to provide the most accurate
+ and acceptable result as shown in [Fig:20]
 \end_layout
 
 \begin_layout Standard
@@ -3652,7 +3830,7 @@ Project timeline
 \begin_layout Standard
 \noindent
 Due to the inconveniences caused due to the sudden COVID-19 lockdown, progress
- of the project was halted beyond March 16 2020
+ of the project was halted beyond March 16 2020.
 \end_layout
 
 \begin_layout Standard
