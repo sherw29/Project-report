@@ -90,124 +90,39 @@ fixltx2e
 \begin_body
 
 \begin_layout Title
+\begin_inset External
+	template PDFPages
+	filename page1.pdf
 
-\size large
-DEVELOPMENT OF AN EFFECTIVE CLASSIFICATION TECHNIQUE TO CLASSIFY SETTLEMENTS
- INTO VARIOUS LAND COVER FEATURES
-\end_layout
-
-\begin_layout Standard
-\align center
-
-\series bold
-\size large
-Project Report
-\end_layout
-
-\begin_layout Standard
-\align center
-
-\shape slanted
-Submitted in partial fulfillment of the requirements for the
-\end_layout
-
-\begin_layout Standard
-\align center
-
-\shape slanted
-Bachelors Degree in Engineering
-\end_layout
-
-\begin_layout Standard
-\align center
-by
-\end_layout
-
-\begin_layout Standard
-\align center
-
-\series bold
-\size large
-Sherwin Colaco 
-\family roman
-\series default
-(Reg No:1613006)
-\end_layout
-
-\begin_layout Standard
-\align center
-
-\series bold
-\size large
-Shivam Bale 
-\family roman
-\series default
-(Reg No:1613003)
-\end_layout
-
-\begin_layout Standard
-\align center
-
-\series bold
-\size large
-Keith Pinto 
-\family roman
-\series default
-(Reg No:1613023)
-\end_layout
-
-\begin_layout Standard
-\align center
-
-\shape slanted
-Under the guidance of
-\end_layout
-
-\begin_layout Standard
-\align center
-
-\series bold
-\size large
-Dr.Varsha Turkar
-\end_layout
-
-\begin_layout Standard
-\align center
-Head of Department
-\end_layout
-
-\begin_layout Standard
-\align center
-Department of E&TC,DBCE
-\end_layout
-
-\begin_layout Standard
-\align center
-&
-\end_layout
-
-\begin_layout Standard
-\align center
-
-\series bold
-\size large
-Dr.Shreyas Simu
-\end_layout
-
-\begin_layout Standard
-\align center
-Assistant Professor
-\end_layout
-
-\begin_layout Standard
-\align center
-Department of E&TC,DBCE
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage newpage
 \end_inset
 
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset External
+	template PDFPages
+	filename page2.pdf
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset External
+	template PDFPages
+	filename page3.pdf
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 
 \end_layout
 
@@ -3830,7 +3745,7 @@ Project timeline
 \begin_layout Standard
 \noindent
 Due to the inconveniences caused due to the sudden COVID-19 lockdown, progress
- of the project was halted beyond March 16 2020
+ of the project was halted beyond March 16 2020.
 \end_layout
 
 \begin_layout Standard
