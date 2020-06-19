@@ -15,11 +15,11 @@ fixltx2e
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman "ae" "default"
-\font_sans "lmss" "default"
+\font_roman "default" "default"
+\font_sans "default" "default"
 \font_typewriter "default" "default"
 \font_math "auto" "auto"
-\font_default_family sfdefault
+\font_default_family default
 \use_non_tex_fonts false
 \font_sc false
 \font_osf false
@@ -89,7 +89,7 @@ fixltx2e
 
 \begin_body
 
-\begin_layout Title
+\begin_layout Standard
 \begin_inset External
 	template PDFPages
 	filename page1.pdf
@@ -97,11 +97,6 @@ fixltx2e
 \end_inset
 
 
-\end_layout
-
-\begin_layout Standard
-\noindent
-\align center
 \begin_inset External
 	template PDFPages
 	filename page2.pdf
@@ -109,20 +104,12 @@ fixltx2e
 \end_inset
 
 
-\end_layout
-
-\begin_layout Standard
-\align center
 \begin_inset External
 	template PDFPages
 	filename page3.pdf
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
 
 \end_layout
 
@@ -152,7 +139,18 @@ t of other people.
  Fr.
  Kinley D’Cruz for providing us the necessary infrastructure to carry out
  our project work easily.
- We are highly indebted to our principal, Dr.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+We are highly indebted to our principal, Dr.
  Neena Panandikar for allowing us to take up this project.
  We would like to express our deep gratitude to Dr.
  Varsha Turkar, Head of Department of Electronics and Telecommunication
@@ -167,7 +165,18 @@ t of other people.
  We would also like to thank all the faculty members of Don Bosco College
  of Engineering for their critical advice and guidance during various phases
  of our project.
- We also extend our gratitude to ETC Lab Assistants, Technical staff and
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+We also extend our gratitude to ETC Lab Assistants, Technical staff and
  Librarian for assisting us in bring together the project and providing
  resources whenever required by us for our project work.
  Lastly, we place on records, a deep sense of thankfulness to Almighty,
@@ -2059,6 +2068,57 @@ Pauli RGB Image
 \end_layout
 
 \begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+PROJECT TIMELINE
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename C:/Users/Sherwin Colaco/Pictures/timeline.jpeg
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Project timeline
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+Due to the inconveniences caused due to the sudden COVID-19 lockdown, progress
+ of the project was halted beyond March 16 2020.
+\end_layout
+
+\begin_layout Standard
 \begin_inset Newpage newpage
 \end_inset
 
@@ -2671,8 +2731,8 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename C:/Users/Sherwin Colaco/Pictures/cmatrix/dtree3.jpg
-	scale 60
+	filename C:/Users/Sherwin Colaco/Pictures/cmatrix/dtreeyama3.jpg
+	scale 40
 
 \end_inset
 
@@ -2698,21 +2758,21 @@ Confusion matrix:Decision tree classifier model trained using 3 component
 \end_layout
 
 \begin_layout Itemize
-44,485 samples of Settlements were correctly classified while 4,617 samples
- were reclassified as Vegetation and 3,334 samples were reclassified as
+84.84% of the Settlement samples were correctly classified while 8.80% were
+ reclassified as Vegetation and 6.36% of the samples were reclassified as
  Water bodies.
 \end_layout
 
 \begin_layout Itemize
-32,296 samples of Vegetation were correctly classified while 5,917 samples
- were reclassified as Settlements and 4,035 samples were reclassified as
- Water bodies.
+76.44% of the samples of Vegetation class were correctly classified while
+ 14% of the samples were reclassified as Settlements and 9.56% were reclassified
+ as Water bodies.
 \end_layout
 
 \begin_layout Itemize
-72,950 samples of Water Bodies were correctly classified while 4,336 samples
- were reclassified as Settlements and 4,147 samples were reclassified as
- Vegetation.
+89.58% of the samples of Water Bodies class were correctly classified while
+ 5.32% of the samples were reclassified as Settlements and 5.10% were reclassified
+ as Vegetation.
 \end_layout
 
 \begin_layout Itemize
@@ -2734,8 +2794,8 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename C:/Users/Sherwin Colaco/Pictures/cmatrix/dtree4.jpg
-	scale 60
+	filename C:/Users/Sherwin Colaco/Pictures/cmatrix/dtreeyama4.jpg
+	scale 40
 
 \end_inset
 
@@ -2761,21 +2821,21 @@ Confusion matrix:Decision tree classifier model trained using 4 component
 \end_layout
 
 \begin_layout Itemize
-49,034 samples of Settlements were correctly classified while 3,329 samples
- were reclassified as Vegetation and 73 samples were reclassified as Water
- bodies.
+93.51% of the Settlement samples were correctly classified while 6.34% were
+ reclassified as Vegetation and 0.13% of the samples were reclassified as
+ Water bodies.
 \end_layout
 
 \begin_layout Itemize
-38,230 samples of Vegetation were correctly classified while 3,571 samples
- were reclassified as Settlements and 447 samples were reclassified as Water
- bodies.
+90.50% of the samples of Vegetation class were correctly classified while
+ 8.45% of the samples were reclassified as Settlements and 1.05% were reclassified
+ as Water bodies.
 \end_layout
 
 \begin_layout Itemize
-80,782 samples of Water Bodies were correctly classified while 189 samples
- were reclassified as Settlements and 463 samples were reclassified as Vegetatio
-n.
+99.20% of the samples of Water Bodies class were correctly classified while
+ 0.23% of the samples were reclassified as Settlements and 0.57% were reclassified
+ as Vegetation.
 \end_layout
 
 \begin_layout Itemize
@@ -2797,8 +2857,8 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename C:/Users/Sherwin Colaco/Pictures/cmatrix/dtree7.jpg
-	scale 60
+	filename C:/Users/Sherwin Colaco/Pictures/cmatrix/dtreegulab7.jpg
+	scale 40
 
 \end_inset
 
@@ -2828,21 +2888,21 @@ Confusion matrix:Decision tree classifier model trained using 7 component
 \end_layout
 
 \begin_layout Itemize
-48,991 samples of Settlements were correctly classified while 3,288 samples
- were reclassified as Vegetation and 157 samples were reclassified as Water
- bodies.
+93.43% of the Settlement samples were correctly classified while 6.27% were
+ reclassified as Vegetation and 0.30% of the samples were reclassified as
+ Water bodies.
 \end_layout
 
 \begin_layout Itemize
-38,144 samples of Vegetation were correctly classified while 3,417 samples
- were reclassified as Settlements and 687 samples were reclassified as Water
- bodies.
+90.28% of the samples of Vegetation class were correctly classified while
+ 8.08% of the samples were reclassified as Settlements and 1.64% were reclassified
+ as Water bodies.
 \end_layout
 
 \begin_layout Itemize
-80,692 samples of Water Bodies were correctly classified while 180 samples
- were reclassified as Settlements and 562 samples were reclassified as Vegetatio
-n.
+99.09% of the samples of Water Bodies class were correctly classified while
+ 0.22% of the samples were reclassified as Settlements and 0.69% were reclassified
+ as Vegetation.
 \end_layout
 
 \begin_layout Itemize
@@ -2868,8 +2928,8 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename C:/Users/Sherwin Colaco/Pictures/cmatrix/ann3.jpg
-	scale 60
+	filename C:/Users/Sherwin Colaco/Pictures/cmatrix/ANNyama3.jpg
+	scale 40
 
 \end_inset
 
@@ -2894,23 +2954,21 @@ Confusion matrix:ANN classifier model trained using 3 component data
 \end_layout
 
 \begin_layout Itemize
-\noindent
-21,558 samples of Settlements were correctly classified while there were
- no samples reclassified as Vegetation and 30,878 samples were reclassified
+93.43% of the Settlement samples were correctly classified while 6.27% were
+ reclassified as Vegetation and 0.30% of the samples were reclassified as
+ Water bodies.
+\end_layout
+
+\begin_layout Itemize
+90.28% of the samples of Vegetation class were correctly classified while
+ 8.08% of the samples were reclassified as Settlements and 1.64% were reclassified
  as Water bodies.
 \end_layout
 
 \begin_layout Itemize
-5 samples of Vegetation were correctly classified while 6,415 samples were
- reclassified as Settlements and 35,828 samples were reclassified as Water
- bodies.
-\end_layout
-
-\begin_layout Itemize
-79,039 samples of Water Bodies were correctly classified while 2,395 samples
- were reclassified as Settlements and there were no samples reclassified
+99.09% of the samples of Water Bodies class were correctly classified while
+ 0.22% of the samples were reclassified as Settlements and 0.69% were reclassified
  as Vegetation.
- 
 \end_layout
 
 \begin_layout Itemize
@@ -2934,8 +2992,8 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename C:/Users/Sherwin Colaco/Pictures/cmatrix/ann4.jpg
-	scale 60
+	filename C:/Users/Sherwin Colaco/Pictures/cmatrix/ANNyama4.jpg
+	scale 40
 
 \end_inset
 
@@ -3004,8 +3062,8 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename C:/Users/Sherwin Colaco/Pictures/cmatrix/ann7.jpg
-	scale 60
+	filename C:/Users/Sherwin Colaco/Pictures/cmatrix/ANNgulab7.jpg
+	scale 40
 
 \end_inset
 
@@ -3077,8 +3135,8 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename C:/Users/Sherwin Colaco/Pictures/cmatrix/rf3.jpg
-	scale 60
+	filename C:/Users/Sherwin Colaco/Pictures/cmatrix/RFyama3.jpg
+	scale 40
 
 \end_inset
 
@@ -3145,8 +3203,8 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename C:/Users/Sherwin Colaco/Pictures/cmatrix/rf4.jpg
-	scale 60
+	filename C:/Users/Sherwin Colaco/Pictures/cmatrix/RFyama4.jpg
+	scale 40
 
 \end_inset
 
@@ -3212,8 +3270,8 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename C:/Users/Sherwin Colaco/Pictures/cmatrix/rf7.jpg
-	scale 60
+	filename C:/Users/Sherwin Colaco/Pictures/cmatrix/RFgulab7.jpg
+	scale 40
 
 \end_inset
 
@@ -3670,6 +3728,7 @@ The ninth model used a Random Forest classifier which was trained using
 \end_layout
 
 \begin_layout Standard
+\noindent
 Based on visual interpretation and observations made from the confusion
  matrices the following conclusions could be made:
 \end_layout
@@ -3691,61 +3750,6 @@ Out of the three classifier models used the Random forest classifier was
 A combination of the Random Forest classifier trained using Yamaguchi's
  four component dataset [fig:12] was found to provide the most accurate
  and acceptable result as shown in [Fig:20]
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage pagebreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Section
-PROJECT TIMELINE
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename C:/Users/Sherwin Colaco/Pictures/timeline.jpeg
-	scale 50
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Project timeline
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\noindent
-Due to the inconveniences caused due to the sudden COVID-19 lockdown, progress
- of the project was halted beyond March 16 2020.
 \end_layout
 
 \begin_layout Standard
